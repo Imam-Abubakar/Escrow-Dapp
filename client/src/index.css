@@ -1,0 +1,158 @@
+body {
+  background-color: #1a1a1a;
+  font-family: "Muli", sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+	font-size: 36px;
+	padding: 20px;
+	font-weight: 900;
+}
+
+/* Contract form */
+.contract {
+  flex-basis: 100%;
+  padding: 20px;
+  margin: 20px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contract h1 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.contract label {
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.contract input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #555;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contract .button {
+  background-color: #0077c2; /* Blue button color */
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px 0 0;
+  padding: 15px 25px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contract .button:hover {
+  background-color: #005ea6; /* Darker shade on hover */
+}
+
+/* Existing contracts */
+.existing-contracts {
+  flex-basis: 100%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #292929;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.existing-contracts h1 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.existing-contracts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.existing-contracts li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.existing-contracts li span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.approve_btn {
+	background-color: #0077c2; /* Blue button color */
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  .approve_btn:hover {
+	background-color: #005ea6; /* Darker shade on hover */
+  }
+
+.existing-contracts li button {
+  background-color: #0077c2; /* Blue button color */
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.existing-contracts li button:hover {
+  background-color: #005ea6; /* Darker shade on hover */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  css Copy code .contract,
+  .existing-contracts {
+    margin: 20px 0;
+  }
+}
